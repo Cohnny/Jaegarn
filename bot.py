@@ -1,10 +1,8 @@
 import discord
 import responses
-import requests
 from Classes import JokeHandler
 from discord.ext import commands
 from datetime import datetime
-from discord.http import Route
 
 TOKEN = 'MTE3MjI4NTU2MDgwMzU1NzQzNg.Go5xI6.R2XXxSpEeY3LkIaNT-HhkRJ3Zs0bkyo1QiiTjM'
 intents = discord.Intents.default()
